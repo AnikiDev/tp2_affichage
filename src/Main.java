@@ -10,9 +10,10 @@ public class Main {
 		// TODO Auto-generated method stub
 		Affichage TA = new Affichage("AAA");
 		Affichage TB = new Affichage("BB");
+        Affichage TC = new Affichage("CC");
 
 		TB.start();
-
+        TC.start();
 		TA.start();
 	}
 
